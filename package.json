@@ -1,0 +1,34 @@
+{
+  "name": "project0_et3260",
+  "version": "1.0.0",
+  "description": "quan ly san bong",
+  "main": "src\\main.js",
+  "scripts": {
+    "start": "nodemon --inspect src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdtr23/project0_et3260.git"
+  },
+  "keywords": [
+    "project0",
+    "project0_et3260",
+    "et3260",
+    "quanlysanbong",
+    "sms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdtr23/project0_et3260/issues"
+  },
+  "homepage": "https://github.com/hdtr23/project0_et3260#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14"
+  }
+}
