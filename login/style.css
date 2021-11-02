@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(95, 209, 95);
+    background-image: url("sanbong1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background-color: white;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.box .typing{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid green;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    font-weight: 500;
+    border-radius: 1.5rem;
+    transition: 0.25s;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+.box h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+.box .typing:focus{
+    width: 250px;
+    border-color: aquamarine;
+}
+.login-button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid aquamarine;
+    padding: 15px 30px;
+    width: 150px;
+    outline: none;
+    font-weight: 500;
+    border-radius: 1.5rem;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color: rgb(68, 194, 68);
+}
